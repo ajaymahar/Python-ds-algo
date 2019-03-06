@@ -1,2 +1,2 @@
 # python-datastrucute-algo
-Solving problems of data-structure and algorithm using python language.
+Solving data-structure and algorithms problems using python language.
