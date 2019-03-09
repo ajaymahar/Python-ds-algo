@@ -43,9 +43,11 @@ List of Implementations
 * [Solutions](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions)
     * [Arrays](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions/Arrays)
         * [anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/anagrams.py)
+        * [pair_sum.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/pair_sum.py)
 
 ---
 
 * [Tests](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/tests)
     * [test_anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/tests/test_anagrams.py)
+    * [test_pair_sum.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/tests/test_pair_sum.py)
 
