@@ -7,9 +7,12 @@ would return 2 pairs:
 (1,3)
 (2,2)
 '''
-#Solution 1
-def pair_sum_v1(array: list, k: int)->list:
+
+
+# Solution 1
+def pair_sum_v1(array: list, k: int) -> list:
     pass
+
 
 ''' Solution 2
     Using hashing
@@ -31,13 +34,14 @@ def pair_sum_v1(array: list, k: int)->list:
 
     at last when we went through all the elements of an array will just print the "output"
 '''
-def pair_sum_v2(array: list, k:int)->list:
+
+
+def pair_sum_v2(array: list, k: int) -> list:
     if len(array) < 2:
         return
-    #create hash set called seen and output
-    seen = set()    
+    # create hash set called seen and output
+    seen = set()
     output = set()
-    
     for element in array:
         target = k - element
         if target not in seen:

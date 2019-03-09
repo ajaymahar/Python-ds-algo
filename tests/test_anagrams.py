@@ -26,7 +26,14 @@ Elvis = Lives
 Madonna Louise Ciccone = One cool dance musician
 
 -------------------------------------------------------------------------------------
-positive_testcases = {"Ronald Reagan":"A darn long era", "Elvis":"Lives", "Madonna Louise Ciccone":"One cool dance musician" ,"Jim Morrison":"Mr Mojo Risin","Damon Albarn":"Dan Abnormal", "George Bush":"He bugs Gore", "Clint Eastwood":"Old West action", "anagram":"gamanra", "anagram":"GraMana", "AnAgrAm":"gramana", "anagram": "naagram", "anagram":"anargam", "anagram": "anagrma", "an":"na"}
+positive_testcases = {"Ronald Reagan": "A darn long era", "Elvis": "Lives",
+                      "Madonna Louise Ciccone": "One cool dance musician",
+                      "Jim Morrison": "Mr Mojo Risin",
+                      "Damon Albarn": "Dan Abnormal",
+                      "George Bush": "He bugs Gore",
+                      "Clint Eastwood": "Old West action",
+                      "AnAgrAm": "gramana",
+                      "an": "na"}
 --------------------------------------------------------------------------------------
 
 For simplicity, I keep my base word “anagram”
@@ -37,26 +44,35 @@ b) of different length
 testcase1b = [“anagram”, “python”, False]
 
 -------------------------------------------------------------------------------------
-negative_testcases = {"anagram":"wxdcfvb", "anagram":"python"}
+negative_testcases = {"anagram": "wxdcfvb", "anagramx": "python"}
 --------------------------------------------------------------------------------------
 
 '''
 
 from solutions.Arrays import anagrams
 
-positive_testcases = {"Ronald Reagan":"A darn long era", "Elvis":"Lives", "Madonna Louise Ciccone":"One cool dance musician" ,"Jim Morrison":"Mr Mojo Risin","Damon Albarn":"Dan Abnormal", "George Bush":"He bugs Gore", "Clint Eastwood":"Old West action", "anagram":"gamanra", "anagram":"GraMana", "AnAgrAm":"gramana", "anagram": "naagram", "anagram":"anargam", "anagram": "anagrma", "an":"na"}
-negative_testcases = {"anagram":"wxdcfvb", "anagram":"python"}
+positive_testcases = {"Ronald Reagan": "A darn long era", "Elvis": "Lives",
+                      "Madonna Louise Ciccone": "One cool dance musician",
+                      "Jim Morrison": "Mr Mojo Risin",
+                      "Damon Albarn": "Dan Abnormal",
+                      "George Bush": "He bugs Gore",
+                      "Clint Eastwood": "Old West action",
+                      "AnAgrAm": "gramana",
+                      "an": "na"}
+negative_testcases = {"anagram": "wxdcfvb", "anagramx": "python"}
+
 
 def test_anagram_v1():
     for firstString, secondString in positive_testcases.items():
-        assert anagrams.anagram_v1(firstString,secondString) is True
+        assert anagrams.anagram_v1(firstString, secondString) is True
 
     for firstString, secondString in negative_testcases.items():
-        assert anagrams.anagram_v1(firstString,secondString) is False
+        assert anagrams.anagram_v1(firstString, secondString) is False
+
 
 def test_anagram_v2():
     for firstString, secondString in positive_testcases.items():
         assert anagrams.anagram_v2(firstString, secondString) is True
-        
     for firstString, secondString in negative_testcases.items():
-        assert anagrams.anagram_v2(firstString, secondString) is False 
+        assert anagrams.anagram_v2(firstString, secondString) is False
+        
