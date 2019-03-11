@@ -9,5 +9,5 @@ install:
   - pip install pytest pytest-cov
 # command to run tests
 script:
-  - py.test # py.test for Python versions 3.5 and below
-  - py.test --cov=solutions -v
+  - python -m pytest -v # py.test for Python versions 3.5 and below
+  - python -m pytest --cov=solutions -v
