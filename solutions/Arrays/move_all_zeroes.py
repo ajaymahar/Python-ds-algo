@@ -34,6 +34,3 @@ def push_zero_to_end(array: list) -> list:
         array[count] = 0
         count += 1
     return array
-
-
-print(push_zero_to_end([1, 2, 4, 0, 6, 8, 0, 0, 8, 6, 0, 8, 0, 0, 8, 6, ]))
