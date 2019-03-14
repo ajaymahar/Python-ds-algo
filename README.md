@@ -10,6 +10,7 @@ List of Implementations
         * [anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/anagrams.py)
         * [pair_sum.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/pair_sum.py)
         * [move_all_zeroes.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/move_all_zeroes.py)
+        * [array_rotation.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/array_rotation.py)
 
 ---
 
@@ -17,4 +18,5 @@ List of Implementations
     * [test_anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/tests/test_anagrams.py)
     * [test_pair_sum.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/tests/test_pair_sum.py)
     * [test_move_all_zeroes.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/tests/test_move_all_zeroes.py)
+    * [test_array_rotation.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/tests/test_array_rotation.py)
 
