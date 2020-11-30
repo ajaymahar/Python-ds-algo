@@ -5,6 +5,9 @@
 Solving data-structure and algorithm problems using python language.
 List of Implementations
 
+If you found an issue read this out how to raise it.
+[Bug](https://github.com/ajaymahar/Python-ds-algo/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+
 * [Solutions](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions)
     * [Arrays](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions/Arrays)
         * [anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/anagrams.py)
