@@ -14,7 +14,7 @@ If you found an issue read this out how to raise it.
         * [move_all_zeroes.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/move_all_zeroes.py)
         * [array_rotation.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/array_rotation.py)
 
-    * Strings
+    * [Strings](https://github.com/ajaymahar/Python-ds-algo/tree/develop/solutions/Strings)
         * [anagrams.py](https://github.com/ajaymahar/Python-ds-algo/blob/master/solutions/Strings/anagrams.py)
 
 ---
