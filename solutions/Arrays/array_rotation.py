@@ -3,12 +3,12 @@ Given a array and range, you need to rotate it by range.
 For Example 1:
     Input :  arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
             range = 4
-    Output : arr[] = [5, 6, 7, 8, 9, 10, 1, 2, 3, 4] 
+    Output : arr[] = [5, 6, 7, 8, 9, 10, 1, 2, 3, 4]
 
 Example 2:
     Input :  arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
             range = 2
-    Output : arr[] = [3, 4, 5, 6, 7, 8, 9, 10, 1, 2] 
+    Output : arr[] = [3, 4, 5, 6, 7, 8, 9, 10, 1, 2]
 """
 
 
@@ -20,7 +20,7 @@ def rotate_an_array_by_range_v1(array: list, r: int) -> list:
             O(r)
 
     """
-    first_list = array[:r]      # Store first part of the array   
+    first_list = array[:r]      # Store first part of the array
     second_list = array[r:]     # Store second part of the array
     second_list.extend(first_list)  # Combined both an array
     return second_list
