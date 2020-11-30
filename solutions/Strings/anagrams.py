@@ -16,7 +16,7 @@ return: bool
 # False
 
 
-def anagram_v1(firstString: str, secondString: str) -> bool:     
+def anagram_v1(firstString: str, secondString: str) -> bool:
     '''This function will take O(n log n ) time complaxity, because every
        sorting compar will take n log n time.'''
     # Remove spaces and convert into lowecase

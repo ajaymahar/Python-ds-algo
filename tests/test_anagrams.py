@@ -21,7 +21,7 @@ Jim Morrison = Mr Mojo Risin
 Damon Albarn = Dan Abnormal
 George Bush = He bugs Gore
 Clint Eastwood = Old West action
-Ronald Reagan = A darn long era
+Ronald Reagan = A d;rn long era
 Elvis = Lives
 Madonna Louise Ciccone = One cool dance musician
 
@@ -49,7 +49,7 @@ negative_testcases = {"anagram": "wxdcfvb", "anagramx": "python"}
 
 '''
 
-from solutions.Arrays import anagrams
+from solutions.Strings import anagrams
 
 positive_testcases = {"Ronald Reagan": "A darn long era", "Elvis": "Lives",
                       "Madonna Louise Ciccone": "One cool dance musician",
@@ -75,4 +75,3 @@ def test_anagram_v2():
         assert anagrams.anagram_v2(firstString, secondString) is True
     for firstString, secondString in negative_testcases.items():
         assert anagrams.anagram_v2(firstString, secondString) is False
-        

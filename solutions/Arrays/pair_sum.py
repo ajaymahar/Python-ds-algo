@@ -9,14 +9,14 @@ would return 2 pairs:
 '''
 
 
-# Solution 1
-def pair_sum_v1(array: list, k: int) -> list:
-    pass
+# # Solution 1
+# def pair_sum_v1(array: list, k: int) -> list:
+#     pass
 
 
 ''' Solution 2
     Using hashing
-    
+
     loop through each element in array
     find target by subtracting with element with k
     example:
