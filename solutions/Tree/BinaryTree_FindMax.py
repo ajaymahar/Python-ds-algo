@@ -34,13 +34,10 @@ class BinaryTree:
         if root is None:
             return 0
 
-        if root.left is None and root.right is None:
-            return root.data
-
-        # return max(self.findMax(root.left), self.findMax(root.right))
+        # return max(root.data, self.findMax(root.left), self.findMax(root.right))
         left_max = self.findMax(root.left)
         right_max = self.findMax(root.right)
-        return max(left_max, right_max)
+        return max(root.data, left_max, right_max)
 
 
 if __name__ == "__main__":
