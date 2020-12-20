@@ -10,10 +10,12 @@ If you found an issue read this out how to raise it.
 
 * [Solutions](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions)
     * [Arrays](https://github.com/ajaykmahar/python-datastrucute-algo/tree/master/solutions/Arrays)
-        * [anagrams.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/anagrams.py)
         * [pair_sum.py](https://github.com/ajaykmahar/python-datastrucute-algo/blob/master/solutions/Arrays/pair_sum.py)
         * [move_all_zeroes.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/move_all_zeroes.py)
         * [array_rotation.py](https://github.com/ajaykmahar/Python-datastructure-and-algorithm/blob/master/solutions/Arrays/array_rotation.py)
+
+    * [Strings](https://github.com/ajaymahar/Python-ds-algo/tree/develop/solutions/Strings)
+        * [anagrams.py](https://github.com/ajaymahar/Python-ds-algo/blob/master/solutions/Strings/anagrams.py)
 
 ---
 
