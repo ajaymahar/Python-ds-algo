@@ -1,8 +1,8 @@
 '''
     Author: Ajay Mahar
     Lang: python3
-    Github: www.github.com/ajaymahar
-    YT: www.youtube.com/ajaymahar
+    Github: https://www.github.com/ajaymahar
+    YT: https://www.youtube.com/ajaymaharyt
 
 '''
 
