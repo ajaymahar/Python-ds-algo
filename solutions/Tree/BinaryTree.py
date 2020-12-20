@@ -2,7 +2,7 @@
     Author: Ajay Mahar
     Lang: python3
     Github: www.github.com/ajaymahar
-    YT: www.youtube.com/ajaymahar
+    YT: www.youtube.com/ajaymaharyt
 
 '''
 
