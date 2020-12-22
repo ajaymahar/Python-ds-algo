@@ -56,6 +56,10 @@ class Queue:
         tmpFront = self.front
         self.front = tmpFront.next
         tmpFront.next = None
+
+        if not self.front:
+            self.rare = None
+
         self.size -= 1
         return tmpFront.data
 
