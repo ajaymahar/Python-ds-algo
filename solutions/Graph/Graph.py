@@ -7,7 +7,7 @@
 '''
 
 
-import queue
+from queue import Queue
 
 
 class Graph:
@@ -38,7 +38,7 @@ class Graph:
         :returns: TODO
 
         """
-        q = queue.Queue()
+        q = Queue()
         visited = {key: False for key in self.nodes}
 
         q.put(node)
