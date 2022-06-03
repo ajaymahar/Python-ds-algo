@@ -79,13 +79,6 @@ class Graph:
         for v, e in self.adjList.items():
             print(f"{v} -> {e}")
 
-    def degree(self, node):
-        """TODO: Docstring for degree.
-        :returns: TODO
-
-        """
-        return len(self.adjList[node])
-
 
 if __name__ == "__main__":
     '''
